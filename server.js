@@ -4,13 +4,14 @@ const bodyParser = require('body-parser');
 const v1 = require('./app/routers/v1');
 
 
-/*
-FIXME:
-    vairable names should be like firstSecond
-*/
 
 // Doumentation for the routes
 const allRoutes = {
+    /*
+    FIXME:
+    vairable names should be like firstSecond
+    */
+
     meetups_url: 'http://api/v1/meetups',
     create_meetups_url: 'http://api/v1/meetups',
     upcoming_meetups_url: 'http://api/v1/meetups/upcoming',

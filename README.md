@@ -1,3 +1,3 @@
 # QuestionerV2
-[![Build Status](https://travis-ci.com/jakazzy/questionerV2.svg?branch=develop)](https://travis-ci.com/jakazzy/questionerV2)
-[![Coverage Status](https://coveralls.io/repos/github/jakazzy/questionerV2/badge.svg?branch=develop)](https://coveralls.io/github/jakazzy/questionerV2?branch=develop)
+[![Build Status](https://travis-ci.org/kofiasare/Project-C1.svg?branch=kofi)](https://travis-ci.org/kofiasare/Project-C1)
+[![Coverage Status](https://coveralls.io/repos/github/kofiasare/Project-C1/badge.svg?branch=kofi)](https://coveralls.io/github/kofiasare/Project-C1?branch=kofi)

@@ -3,7 +3,10 @@ const { validationResult } = require('express-validator/check');
 
 module.exports = {
     index: function(req, res) {
-        res.json(questions)
+        res.json({
+            status: 200,
+            data: questions
+        })
     },
 
     create: function(req, res) {

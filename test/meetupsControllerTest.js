@@ -1,17 +1,18 @@
 // imports
-let chai = require("chai");
-let should = chai.should();
-let expect = chai.expect;
-let chaiHTTP = require("chai-http");
-let server = require("./../server");
-let faker = require("faker");
-let meetups = require("./../app/dataStore/meetupsTable");
+const chai = require('chai');
+
+const should = chai.should();
+const expect = chai.expect;
+const chaiHTTP = require('chai-http');
+const server = require('./../server');
+const faker = require('faker');
+const meetups = require('./../app/dataStore/meetupsTable');
 
 
 chai.use(chaiHTTP);
 
 
-describe("MeetupsController", function() {
+describe('MeetupsController', () => {
     // GET ALL MEETUPS
     describe("GET api/v1/meetups/", function() {
         it("should get all the meetups", function(done) {
@@ -125,4 +126,4 @@ describe("MeetupsController", function() {
             done();
         })
     })
-})
+});
