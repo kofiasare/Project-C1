@@ -1,0 +1,8 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+        "indent": ["error", 4],
+        "eol-last": "off",
+        "no-console": "warn"
+    }
+}
